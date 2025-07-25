@@ -1,7 +1,7 @@
 Author: Sourabhgouda
 Date: 10-07-2025
 
-Client: ChatGPT
+Client: MYself
 Project Brief: "My Personal Library"
 Website Title: My Personal Library
 

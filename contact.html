@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Me</title>
-</head>
-<body>
-   <center> <h1>Contact Me</h1></center>
-    <a href="index.html">Home</a>
-    <a href="books.html">Favorite Books</a>
-    <a href="contact.html">Contact Me</a> <br>
-    Name: <input type="text" placeholder="Ex: Jhon Sins"> <br>
-    Email: <input type="email" placeholder="Ex: Jhon_Sins@gmail.com"> <br>
-    Message: <textarea name="Message"  placeholder="Drop your message here"></textarea><br>
-    <button>Submit</button>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="./Assets/Logo.png" alt="Logo" />
+      <a href="index.html">Home</a>
+      <a href="books.html">My Favorite Books</a>
+      <a href="contact.html">Contact Me</a>
+    </nav>
+    <div id="contact">
+      <div id="contactUs-left">
+        Name:
+        <input id="name" type="text" placeholder="Ex: Sourabhgouda" />
+        <br />
+        Email:
+        <input id="email" type="email" placeholder="Ex: Sourabh@gmail.com" />
+        <br />
+        Message:
+        <textarea
+          id="message"
+          name="Message"
+          placeholder="Drop your message here"
+        >
+        </textarea>
+        <br />
+        <button>Submit</button>
+      </div>
+      <div id="contactUs-right">
+        <img src="./Assets/ContactUs.png" alt="Email_Image" />
+      </div>
+    </div>
+  </body>
 </html>
